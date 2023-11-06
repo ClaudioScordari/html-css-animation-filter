@@ -107,3 +107,53 @@
 }
 
 /* es. 3 fatto */
+
+
+.ex-4-square:hover {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+/* es. 4 fatto */
+
+
+.ex-5-square:hover {
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s;
+}
+
+.ex-5-square:active {
+    width: 50px;
+    height: 50px;
+    transition: width 2s, height 2s;
+}
+
+/* es.5 fatto */
+
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+    transition: filter 2s;
+}
+
+/* es. 6 fatto */
+
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: grayscale(1) hue-rotate(60deg);
+    transition: border-radius 2s, filter 2s;
+}
+
+/* es. 8 fatto */
+
+
+.ex-9-img:hover {
+    width: 600px;
+    border-radius: 20px;
+    filter: grayscale(1) hue-rotate(60deg);
+    transition: border-radius 2s, filter 2s, width 2s;
+}
+
+/* es. 9 fatto */
