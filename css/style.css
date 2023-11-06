@@ -89,3 +89,21 @@
     background-color: red;
     transition: background-color 3s;
 }
+
+/* es. 1 fatto */
+
+
+.ex-2-square:active {
+    width: 100%;
+    transition: width 3s;
+}
+
+/* es. 2 fatto */
+
+
+.ex-3-square:hover {
+    border-radius: 50%;
+    transition: border-radius 2s;
+}
+
+/* es. 3 fatto */
